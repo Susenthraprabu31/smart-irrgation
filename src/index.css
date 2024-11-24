@@ -1,0 +1,48 @@
+.wrapper{
+    margin-right:650px;
+    font-weight: bold;
+}
+.card{
+    background-color: antiquewhite;
+    margin-right: 580px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    width: 18rem;    
+    height:22rem;
+    
+}
+.toggle01{
+    margin-left: 60px;
+    margin-top: -20px;
+}
+.motor{
+    margin-left: 80px;
+    margin-bottom: 1px;
+}
+.h5{
+    margin-left:70px;
+}
+.value{
+    margin-left:70px ;
+    margin-bottom: 10px;
+    
+}
+.volt{
+    margin-left: 50px;
+}
+.manual{
+    margin-left:40px;
+}
+.daylight{
+    margin-left: 40px;
+}
+.dashboard{
+    margin-left: -110px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.smartirrgation{
+    margin-right: 600px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif ;
+    font-size: large;
+}

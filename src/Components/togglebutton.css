@@ -1,0 +1,49 @@
+.toggle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 150px;
+    
+}
+  
+  .toggle-checkbox {
+    display: none;
+  }
+  
+  .toggle-switch {
+    position: relative;
+    width: 60px;
+    height: 30px;
+    size: 50rem;
+    background-color: #ccc;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-switch.checked {
+    background-color: #4caf50;
+  }
+  
+  .toggle-circle {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .toggle-switch.checked .toggle-circle {
+    transform: translateX(30px);
+  }
+  
+  .toggle-label {
+    font-size: 16px;
+    color: #333;
+  }
