@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./dntoggle.css"
+
 const dnToggleButton = () => {
     // Manage theme state
     const [isDaylight, setIsDaylight] = useState(() => {
