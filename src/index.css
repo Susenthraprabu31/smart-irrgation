@@ -60,4 +60,34 @@
 }
 @media only screen and (max-width: 480px) {
     /* styles for devices with a maximum screen width of 480px */
+    .smartirrgation{
+        margin-left:25px;
+        font-size: smaller;
+        font-weight: bold;
+    }
+    .dashboard{
+        margin-left: -10px;
+        font-size: smaller;
+        font-weight: bolder;
+    }
+    .cards{
+        margin-left: -15px;
+        width: 50px;
+        
+    }
+    .card{
+        margin-left: -15px;
+    }
+    .card-body{
+        margin-left: -12px;
+        margin-top: -10px;
+    }
+    .dn-switch{
+        margin-left: -20px;
+        padding:10
+    }
+    .toggle-switch{
+        margin-left:-50px;
+        padding: 10px;
+    }
 }
