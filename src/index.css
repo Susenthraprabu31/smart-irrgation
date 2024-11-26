@@ -46,3 +46,18 @@
     font-family:'Times New Roman', Times, serif ;
     font-size: large;
 }
+@media only screen and (min-width: 480px) {
+    /* styles for devices with a minimum screen width of 480px */
+.smartirrgation{
+    margin-left:13px;
+}
+.dashboard{
+    margin-left: -10px;
+}
+.card{
+    margin-left: -10px;
+}
+}
+@media only screen and (max-width: 480px) {
+    /* styles for devices with a maximum screen width of 480px */
+}
